@@ -1,13 +1,14 @@
 ---
 title: java虚拟机笔记（一）
-date: 2018-07-28 08:43:53
 tags:
-- java
-- jvm
-- 虚拟机
-- 读书笔记
+  - java
+  - jvm
+  - 虚拟机
+  - 读书笔记
 category:
-- 技术文章
+  - 技术文章
+abbrlink: c5d15146
+date: 2018-07-28 08:43:53
 ---
 
 ### JDK和JRE区别

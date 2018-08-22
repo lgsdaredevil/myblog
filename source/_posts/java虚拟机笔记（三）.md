@@ -1,13 +1,14 @@
 ---
 title: java虚拟机笔记（三）
-date: 2018-08-11 08:55:58
 tags:
-- java
-- jvm
-- 虚拟机
-- 读书笔记
+  - java
+  - jvm
+  - 虚拟机
+  - 读书笔记
 category:
-- 技术文章
+  - 技术文章
+abbrlink: b8d91ecc
+date: 2018-08-11 08:55:58
 ---
 
 # 虚拟机类加载机制

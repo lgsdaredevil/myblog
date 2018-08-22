@@ -1,13 +1,14 @@
 ---
 title: 部署hexo博客到github
-date: 2018-07-11 15:55:19
 tags:
-- hexo
-- github
-- 部署博客
+  - hexo
+  - github
+  - 部署博客
 category:
-- 个人博客
-- 
+  - 个人博客
+  - null
+abbrlink: 215fb59
+date: 2018-07-11 15:55:19
 ---
 
 # 部署hexo博客到github

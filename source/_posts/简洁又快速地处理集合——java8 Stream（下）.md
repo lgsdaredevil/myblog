@@ -1,12 +1,13 @@
 ---
 title: 【转】简洁又快速地处理集合——java8 Stream（下）
-date: 2018-08-19 10:26:04
 tags:
-- java
-- stream
-- 转载
+  - java
+  - stream
+  - 转载
 category:
-- 技术文章
+  - 技术文章
+abbrlink: 9e7dbf5a
+date: 2018-08-19 10:26:04
 ---
 
 > 作者：Howie_Y

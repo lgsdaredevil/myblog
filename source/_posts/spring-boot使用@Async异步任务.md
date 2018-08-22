@@ -1,13 +1,14 @@
 ---
 title: spring boot使用@Async异步任务
-date: 2018-07-17 11:04:05
 tags:
-- java
-- spring boot
-- Async
-- 异步
+  - java
+  - spring boot
+  - Async
+  - 异步
 category:
-- 技术文章项目
+  - 技术文章项目
+abbrlink: 87c0e04a
+date: 2018-07-17 11:04:05
 ---
 
 

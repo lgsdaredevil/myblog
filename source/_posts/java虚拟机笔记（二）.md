@@ -1,13 +1,14 @@
 ---
 title: java虚拟机笔记（二）
-date: 2018-08-04 09:35:56
 tags:
-- java
-- jvm
-- 虚拟机
-- 读书笔记
+  - java
+  - jvm
+  - 虚拟机
+  - 读书笔记
 category:
-- 技术文章
+  - 技术文章
+abbrlink: f5c7bd9e
+date: 2018-08-04 09:35:56
 ---
 
 # 判断对象是否存活
