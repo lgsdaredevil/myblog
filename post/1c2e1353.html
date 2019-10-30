@@ -94,10 +94,12 @@
 <meta property="og:site_name" content="Learning Notes">
 <meta property="og:description" content="建造者模式讲一个复杂构建与他的表示分离，使得同样的构建可以创建不同的表示。 优点 封装性：客户端不必知道产品内部组成的细节。 建造者独立，容易扩展。例子中，惠普和苹果建造者互相独立。 便于控制细节风险。  应用场景 需要生成的产品对象有复杂的内部结构，这些产品对象具备共性。 隔离复杂对象的创建和使用，并使得形同的创建过程可以创建不同的产品。 相同方法，不同的执行顺序。  代码GitHUb 新建一个">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-19T08:29:23.066Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/lgsxiaosen/my_picture/master/article/扫码_搜索联合传播样式-标准色版.png">
+<meta property="og:updated_time" content="2019-10-30T00:34:16.709Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="设计模式（八）——建造者模式">
 <meta name="twitter:description" content="建造者模式讲一个复杂构建与他的表示分离，使得同样的构建可以创建不同的表示。 优点 封装性：客户端不必知道产品内部组成的细节。 建造者独立，容易扩展。例子中，惠普和苹果建造者互相独立。 便于控制细节风险。  应用场景 需要生成的产品对象有复杂的内部结构，这些产品对象具备共性。 隔离复杂对象的创建和使用，并使得形同的创建过程可以创建不同的产品。 相同方法，不同的执行顺序。  代码GitHUb 新建一个">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/lgsxiaosen/my_picture/master/article/扫码_搜索联合传播样式-标准色版.png">
 
 
 
@@ -454,6 +456,7 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">        Director director = <span class="keyword">new</span> Director();</span><br><span class="line">        Computer hp = director.createComputerByDirector(<span class="keyword">new</span> HPComputer());</span><br><span class="line">        System.out.println(hp.toString());</span><br><span class="line">        System.out.println(<span class="string">"-----------------------"</span>);</span><br><span class="line">        Computer apple = director.createComputerByDirector(<span class="keyword">new</span> AppleComputer());</span><br><span class="line">        System.out.println(apple.toString());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>结果</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Computer&#123;CPU=&apos;惠普cpu&apos;, capacity=&apos;560G&apos;, ram=&apos;16G&apos;, system=&apos;windows10&apos;&#125;</span><br><span class="line">-----------------------</span><br><span class="line">Computer&#123;CPU=&apos;苹果cpu&apos;, capacity=&apos;256G&apos;, ram=&apos;16G&apos;, system=&apos;macOS&apos;&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="https://raw.githubusercontent.com/lgsxiaosen/my_picture/master/article/扫码_搜索联合传播样式-标准色版.png" alt="欢迎关注"></p>
 
       
     </div>
@@ -614,7 +617,7 @@
               
                 <a href="/myblog/archives/">
               
-                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-count">41</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
